@@ -3,9 +3,13 @@
   "name": "riskybiz",
   "public": true,
   "github": {
-    "enabled": false
+    "enabled": true
   },
   "regions": ["iad"],
+  "env": {
+    "MONGODB_URL": "@mongodb_url",
+    "FIREBASE_ADMIN_CONFIG": "@firebase_admin_config"
+  },
   "builds": [
     { "src": "api/*.js", "use": "@now/node" },
     { "src": "*.html", "use": "@now/static" }

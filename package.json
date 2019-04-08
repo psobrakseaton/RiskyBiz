@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "0.0.0",
+  "description": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psobrakseaton/RiskyBiz.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/psobrakseaton/RiskyBiz/issues"
+  },
+  "homepage": "https://github.com/psobrakseaton/RiskyBiz#readme",
+  "dependencies": {
+    "firebase-admin": "^7.2.0",
+    "mongodb": "^3.2.3"
+  }
+}
