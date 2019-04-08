@@ -1,8 +1,16 @@
 {
   "version": 2,
   "name": "riskybiz",
+  "public": true,
+  "github": {
+    "enabled": false
+  },
+  "regions": ["iad"],
   "builds": [
-    { "src": "*.js", "use": "@now/node" },
+    { "src": "api/*.js", "use": "@now/node" },
     { "src": "*.html", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1.js"}
   ]
 }
